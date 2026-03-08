@@ -40,7 +40,6 @@ body {
   display: flex;
   margin-left: auto;
   gap: 1.2rem;
-  margin: 20px;
 }
 
 .nav-links a {
