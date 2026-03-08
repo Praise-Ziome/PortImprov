@@ -47,11 +47,16 @@ body {
 
 /* ===== HERO ===== */
 
+/* HERO */
+
 .hero {
+  padding: 4rem 0;
+}
+
+.hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  padding: 4rem 0;
   align-items: center;
 }
 
@@ -287,12 +292,12 @@ body {
 
 @media (max-width: 900px) {
 
-  .hero,
-  .featured-grid,
-  .about-grid,
-  .contact-grid {
-    grid-template-columns: 1fr;
-  }
+.hero-grid,
+.featured-grid,
+.about-grid,
+.contact-grid {
+  grid-template-columns: 1fr;
+}
 
   .projects-grid {
     grid-template-columns: 1fr;
